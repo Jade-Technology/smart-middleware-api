@@ -1,0 +1,39 @@
+{
+  "name": "smart-middleware-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix src",
+    "test": "mocha --exit"
+  },
+  "repository": "git+https://github.com/Jade-Technology/smart-middleware-api.git",
+  "keywords": [],
+  "author": "Michel Castro <michel.ferreira.de.castro@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jade-Technology/smart-middleware-api/issues"
+  },
+  "homepage": "https://github.com/Jade-Technology/smart-middleware-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0",
+    "rand-token": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}

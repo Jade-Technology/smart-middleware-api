@@ -1,0 +1,9 @@
+{
+    "login_api": {
+        "url": "http://localhost:8081/api/login",
+        "method": "POST",
+        "headers": {
+            "x-api-key": "uhBSnCnv7NAFZbXPUW498kVjax+v0FDq/HTQshH5FjN/DGi74XvTpvCOQZG0lmYJNG3ja7gIqSPcHryKaX93Xg=="
+        }
+    }
+}
